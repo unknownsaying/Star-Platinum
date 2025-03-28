@@ -3,7 +3,7 @@ Declare Module l{}
 Declare Module m{}
 Declare Module n{}
 Sub lmn
-function t3
+Function t3
     int32_t
     asin(www + l)
     int64_t
@@ -12,6 +12,7 @@ function t3
     asin(www + n)
     int256_t
     acos(www - n)
+End Function
 Function t4
     int256_t
     asin(www - l)
