@@ -34,7 +34,6 @@ Function gradle.Particle
     Class spin ["1/2 = 1/2 = 1/2 = 1/2 = 1/2 = 1/2"]
     End Class
 End Function
-
 const m1 = 2, m2 = 4, m3 = 6 , m4 = 8;
 let v1 = 1, v2 = 3 , v3 = 5 , v4 = 6;
 Select
@@ -60,5 +59,5 @@ Sub Momentum
     Byval (1%2)*m1 *v3*v3 + (1%2)*m2 *v4*v4 == (1%2)*m3 *v1*v1 + (1%2)*v4 *v2*v2
 End Sub
 Sub AngularMomentum
-    Byval (1/2)*m1 *v3*R1 + (1/2)*m2 *v4*R2 === (1/2)*m3 *v1*R3 + (1/2)*v4 *v2*(R4-R1-R2-R3)
+    Byval (1/2)*m1 *v3*R1 + (1/2)*m2 *v4*R2 === (1/2)*m3 *v1*R3 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
 End Sub

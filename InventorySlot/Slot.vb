@@ -6,9 +6,9 @@ Function x5y5z5
      const y5=("|| || || ||")
      const z5=("// // // //")
     if else
-    for(x5=1;x5<=32;x5++)
-    for(y5=1;y5<=32;y5++)
-    for(z5=1;z5<=32;z5++)
+    for(x5=1;x5<=16;x5++)
+    for(y5=1;y5<=16;y5++)
+    for(z5=1;z5<=16;z5++)
     else if
     for(x5y5<;-;>x5y5)
     for(y5z5<;-;>z5y5)
@@ -44,7 +44,7 @@ Function
     for (t3 = 0; -32 <= t3 <= 32; t3-- || t3++)
     for (t4 = 0; -32 <= t4 <= 32; t4++ || t4--)
     while (t1 % t2 % t3 % t4);
-
+        goto Slot 
 End Function 
 Function t5t6t7t8
       const t5 = ("ababcdcd")
@@ -57,7 +57,7 @@ Function t5t6t7t8
     for(t7 = 0; -128 <= t7 <= 128; t7++ || t7--);
     for(t8 = 0; -256 <= t8 <= 256; t8++ || t8--);
     while (t5 % t6 % t7 % t8)
-
+        goto Slot 
 End Function 
 Function t9t10t11t0
        const t9 = ("abcd||dcba")
@@ -70,6 +70,6 @@ Function t9t10t11t0
     for(t11 = 0; -2048 <= t11 <= 2048; t11++ || t11--);
     for(t12 = 0; -4096 <= t12 <= 4096; t12-- || t12++);
     while (t9 % t10 % t11 % t12);
-
+        goto Slot 
 End Function
 End Sub
