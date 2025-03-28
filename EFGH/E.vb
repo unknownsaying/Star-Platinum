@@ -10,11 +10,13 @@ Function vector
   Alias Float
   Using MustOverride
   Using MyClass
+  AndAlso "\-/,|-|,/-\"
 End Function
 Function tensor
   Alias Integer
   Using MustInherit
   Using MyBase
+  AndAlso "\=|,|=|,|=/"
 End Function
 Sub Particle
     const c = 299792458;
