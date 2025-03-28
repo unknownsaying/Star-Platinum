@@ -3,7 +3,7 @@ Declare Module i{}
 Declare Module j{}
 Declare Module k{}
 Sub ijk
-function t1
+Function t1
     int2_t
     sin(www + i)
     int4_t
