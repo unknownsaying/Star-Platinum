@@ -1,6 +1,7 @@
-Imports Double/vb
-Imports Float/vb
-Imports Integer/vb
+Imports Double
+Imports FloaT
+Imports Integer
+Imports InventorySlot
 Function scalar
   Alias Double
   Byval `"\/","||","/\"` as vector
