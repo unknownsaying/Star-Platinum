@@ -1,6 +1,6 @@
-Imports Double
-Imports FloaT
-Imports Integer
+Imports Double.vb
+Imports Float.vb
+Imports Integer.vb
 Imports InventorySlot
 Function scalar
   Alias Double
