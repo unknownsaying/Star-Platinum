@@ -5,5 +5,5 @@ Dim c1,c2,c3,c4 As Integer
  let c2 = 1
  let c3 = 9
  let c4 = 8
-ReDim c = {10,1,9,8}
+ReDim c = {c1,c2,c3,c4}
 End Sub
