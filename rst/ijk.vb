@@ -3,7 +3,7 @@ Declare Module i{}
 Declare Module j{}
 Declare Module k{}
 Sub ijk
-Function t1
+function t1
     int2_t
     sin(www + i)
     int4_t
@@ -12,7 +12,6 @@ Function t1
     sin(www + k)
     int16_t
     cos(www - k)
-End Function
 Function t2
     int16_t
     sin(www - i)

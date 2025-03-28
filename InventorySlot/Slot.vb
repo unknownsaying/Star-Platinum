@@ -10,9 +10,9 @@ Function x5y5z5
     for(y5=1;y5<=16;y5++)
     for(z5=1;z5<=16;z5++)
     else if
-    for(x5y5<;-;>x5y5)
-    for(y5z5<;-;>z5y5)
-    for(x5z5<;-;>z5x5)
+    for(x5y5<;-;>y5z5)
+    for(y5z5<;-;>x5y5)
+    for(x5z5<;-;>z5y5)
     while(x5 % y5 % z5);
         goto Slot
 End Function
@@ -27,8 +27,8 @@ Function x6y6z6
     for(z6=1;z6<=32;z6++)
     else if
     for(x6y6<;-;>y6z6)
-    for(y6z6<;-;>y6z6)
-    for(y6z6<;-;>z6y6)
+    for(y6z6<;-;>x6y6)
+    for(x6z6<;-;>z6y6)
     while(x6 % y6 % z6)
         goto Slot 
 End Function x6y6z6t6
