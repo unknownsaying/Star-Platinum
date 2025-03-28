@@ -41,7 +41,7 @@ const m1 = 2, m2 = 4, m3 = 6 , m4 = 8;
 Let v1 = 1, v2 = 3 , v3 = 5 , v4 = 7;
 Select
     m51 == (m1 + m2) * (m3 + m4)
-    m52 == (m1 + m4) / (m2 * m3)
+    m52 == (m1 * m4) / (m2 * m3)
 End Select
 Select 
      "@/m51\@"
