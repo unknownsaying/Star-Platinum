@@ -3,7 +3,7 @@ Declare Module o{}
 Declare Module p{}
 Declare Module q{}
 Sub opq
-function t5
+Function t5
     int512_t
     sinh(www + o)
     int1024_t
