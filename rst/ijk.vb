@@ -12,6 +12,7 @@ Function t1
     sin(www + k)
     int16_t
     cos(www - k)
+End Function
 Function t2
     int16_t
     sin(www - i)
