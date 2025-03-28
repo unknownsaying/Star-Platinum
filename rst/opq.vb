@@ -12,6 +12,7 @@ function t5
     sinh(www + q)
     int4096_t
     cosh(www - o)
+End Function
 Function t6
     int4096_t
     sinh(www - o)
