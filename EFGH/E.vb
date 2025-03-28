@@ -35,7 +35,7 @@ Function gradle.Particle
     End Class
 End Function
 const m1 = 2, m2 = 4, m3 = 6 , m4 = 8;
-let v1 = 1, v2 = 3 , v3 = 5 , v4 = 6;
+Let v1 = 1, v2 = 3 , v3 = 5 , v4 = 7;
 Select
     m51 == (m1 + m2) * (m3 + m4)
     m52 == (m1 + m4) / (m2 * m3)
@@ -53,11 +53,15 @@ Select
    ReadOnly Namespace = "|_|_|_| |_|_|_| |_|_|_|"
 End Select
 Sub Energy
-    Byval (1/2)*m1 * (v3^2) + (1/2)*m2 * (v4^2) = (1/2)*m3 * (v1^2) + (1/2)*v4 * (v2^2) 
+    Byval (1/2)*m1 * (v1^2) + (1/2)*m2 * (v2^2) = (1/2)*m3 * (v3^2) + (1/2)*v4 * (v4^2) 
 End Sub
 Sub Momentum
-    Byval (1%2)*m1 *v3*v3 + (1%2)*m2 *v4*v4 == (1%2)*m3 *v1*v1 + (1%2)*v4 *v2*v2
+    Byval (1%2)*m1 *v1 + (1%2)*m2 *v2 == (1%2)*m3 *v1 + (1%2)*v4 *v4
 End Sub
+Let R1 = "<>",R2 = "[]",R3 = "()",R4 = "{}"
+AddHandler Inventory = "{[(<>)]}"
+RemoveHandler Slot = "<([{}])>"
 Sub AngularMomentum
-    Byval (1/2)*m1 *v3*R1 + (1/2)*m2 *v4*R2 === (1/2)*m3 *v1*R3 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
+    Byval (1/2)*m1 *v1*R1 + (1/2)*m2 *v2*R2 === (1/2)*m3 *v3*R3 + (1/2)*m4 *V4*R3 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
 End Sub
+
