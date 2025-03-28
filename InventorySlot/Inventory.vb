@@ -43,7 +43,7 @@ Function x4y4z4t4
 const x4 = "++++++++"
 const y4 = "--------"
 const z4 = "********"
-const t4 = "%%%%%%%%"
+const t4 = "////////"
    do (x4 * y4 * z4) / t4;
    for(x4=0;x4<=8;x4++)
    for(y4=0;y4<=8;y4++)
