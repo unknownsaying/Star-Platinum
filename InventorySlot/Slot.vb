@@ -43,7 +43,7 @@ Function
      do t1 * t2 * t3 * t4;
     for (t1 = 0; t1 <= 32; t1++)
     for (t2 = 0; t2 >= 32; t2--)
-    for (t3 = 0; -32 <= t3 <= 32; t3-- || t3++)
+    for (t3 = 0; -32 <= t3 <= 32; t3++ || t3--)
     for (t4 = 0; -32 <= t4 <= 32; t4++ || t4--)
     while (t1 % t2 % t3 % t4);
         goto Slot 
