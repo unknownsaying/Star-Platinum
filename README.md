@@ -1,1 +1,1 @@
-WiFi password for CMCC-44sp CMCC-s3ph
+WiFi password for CMCC-44sp CMCC-s3ph(China Mobile)
