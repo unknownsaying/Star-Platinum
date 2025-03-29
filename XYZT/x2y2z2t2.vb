@@ -1,9 +1,4 @@
-
-struct t2z2y2x2
- t2(){
-default [t2] >=< [x2][y2][z2]
-        [t2 != t1] <-> [t1][t3][t4]
-End Function         
+Sub x2y2z2t2
 Function z2
     do
         while (x2 = -0;x2 >= 2;x2--)
@@ -21,4 +16,8 @@ Function x2
         while (z2 = -0;z2 >= 2;z2--)
     goto [0, 0, 0]
     break
-        
+End Function
+Function t2
+default [t2] >=< [x2][y2][z2]
+        [t2 != t1] <-> [t1][t3][t4]
+End Function         
