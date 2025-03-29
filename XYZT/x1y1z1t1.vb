@@ -1,4 +1,3 @@
-
 Class x1y1z1t1
 Function x1
   for(double o=-6;o>=1;o--)
