@@ -7,7 +7,7 @@ Function z2
 End Function         
 Function y2
     do
-    while (y2 = -0;y2 >= 2;y2--)
+        while (y2 = -0;y2 >= 2;y2--)
     goto [0, 0, 0]
     break
 End Function         
