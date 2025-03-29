@@ -11,8 +11,7 @@ Function y3
                 for (float n = 2; n >= 0 && n <= 4; ++n || n--)
                     continue
 End Function         
-Function
-     z3
+Function z3
     for (int i = 2; i < 4; ++i)
         for (int j = 2; j < 4; ++j)
             for (int k = 2; k < 4; ++k)
