@@ -32,7 +32,7 @@ End Sub
 Function gradle.Particle
     Class Charge ["1.28.Me & 2.3.Me & 4.18.Me & 4.8.Me & 95.Me & 173.Me"]
     End Class
-    Class AngularMomentum ["+2/3 | +2/3 | -1/3 | 2/3 | -1/3 | +2/3"]
+    Class AngularMomentum ["+2/3 | +2/3 | -1/3 | -1/3 | -1/3 | +2/3"]
     End Class
     Class spin ["1/2 = 1/2 = 1/2 = 1/2 = 1/2 = 1/2"]
     End Class
