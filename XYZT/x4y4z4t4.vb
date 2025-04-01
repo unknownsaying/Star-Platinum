@@ -1,9 +1,9 @@
 Class x4y4z4t4
 Function x4
-    for (double o = 4; o <= 8; ++o)
-         for (double p = 2; p <= 8; ++p)
-            for (double q = 4; q <= 8; ++q)
-                break
+    for (int i = 2; i < 4; ++i)
+        for (int j = 2; j < 4; ++j)
+            for (int k = 2; k < 4; ++k)
+             break
 End Function
 Function y4
     for (float l = 1; l >= 0 && l <= 4; ++l || l--)
@@ -12,11 +12,11 @@ Function y4
                 continue
 End Function
 Function z4
-    for (int i = 2; i < 4; ++i)
-        for (int j = 2; j < 4; ++j)
-            for (int k = 2; k < 4; ++k)
-             break
-End Function   
+    for (double o = 4; o <= 8; ++o)
+         for (double p = 2; p <= 8; ++p)
+            for (double q = 4; q <= 8; ++q)
+                break
+End Function
 Function t4
     default [t3] >=< [z3][y3][x3]
             [t3 != t4] <-> [t1][t2][t3]
