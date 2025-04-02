@@ -21,8 +21,8 @@ Function x5y5z5
 End Function
 Function x6y6z6
      do x6 * y6 * z6;
-     const x6("--- --- ---")
-     const y6("___ ___ ___")
+     const x6("\|/ \|/ \|/")
+     const y6("/|\ /|\ /|\")
      const z6("\\\ \\\ \\\'")
     if else
     for(x6=1;x6<=32;x6++)
