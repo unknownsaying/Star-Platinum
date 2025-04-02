@@ -10,7 +10,7 @@ const t1 = "$$$$$$$$"
    for(y1=0;y1<=2;++y1)
    for(z1=0;z1<=2;++z1)
    for(t1=0;t1<=2;++t1)
-   while(x1 % y1 %z1)
+   while(x1 % y1 % z1)
    goto Inventory
 End Function
 Function x2y2z2t2
@@ -23,7 +23,7 @@ const t2 = "========"
    for(y2=0;y2<=4;y2++)
    for(z2=0;z2<=4;z2++)
    for(t2=0;t2<=4;t2++)
-   while(x2 % y2 %z2)
+   while(x2 % y2 % z2)
     goto Inventory
 End Function
 Function x3y3z3t3
@@ -49,7 +49,7 @@ const t4 = "%%%%%%%%"
    for(y4=0;y4<=8;y4++)
    for(z4=0;z4<=8;z4++)
    for(t4=0;t4<=8;t4++)
-   while(x4 % y4 %z4)
+   while(x4 % y4 % z4)
     goto Inventory
 End Function
 End Sub
