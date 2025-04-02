@@ -61,7 +61,7 @@ End Sub
 Sub Momentum
     Byval (1%2)*m1 *v1 + (1%2)*m2 *v2 == (1%2)*m3 *v1 + (1%2)*v4 *v4
 End Sub
-Let R1 = "<>",R2 = "[]",R3 = "()",R4 = "{}"
+Let R1 = "<>",R2 = "()",R3 = "[]",R4 = "{}"
 AddHandler Inventory = "{[(<>)]}"
 RemoveHandler Slot = "<([{}])>"
 Sub AngularMomentum
