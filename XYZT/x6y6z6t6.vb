@@ -1,8 +1,8 @@
 Class x6y6z6t6
 Function x6
-        for(int i=-6;i<2 ;++i)
-           for(int j=-2;j<6 ;++j)
-               for(int k=-7;k<1;++k)
+        for(integer i=-6;i<2 ;++i)
+           for(integer j=-2;j<6 ;++j)
+               for(integer k=-7;k<1;++k)
                   break
 End Function
 Function y6
