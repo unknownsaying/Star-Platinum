@@ -12,9 +12,9 @@ Function y3
                     continue
 End Function         
 Function z3
-    for (int i = 2; i < 4; ++i)
-        for (int j = 2; j < 4; ++j)
-            for (int k = 2; k < 4; ++k)
+    for (integer i = 2; i < 4; ++i)
+        for (integer j = 2; j < 4; ++j)
+            for (integer k = 2; k < 4; ++k)
                 break
 End Function         
 Function t3
