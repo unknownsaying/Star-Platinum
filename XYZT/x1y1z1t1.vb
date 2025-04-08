@@ -1,8 +1,8 @@
 Class x1y1z1t1
 Function x1
-    for(int i=8;i<16;i--)
-      for(int j=1;j>-8;j--)
-         for(int k=9;k<16;k--)
+    for(integer i=8;i<16;i--)
+      for(integer j=1;j>-8;j--)
+         for(integer k=9;k<16;k--)
           break
 End Function         
 Function y1
