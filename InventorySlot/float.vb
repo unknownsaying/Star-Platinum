@@ -1,4 +1,4 @@
-Sub Float
+Sub float
  FloatArray1 = 16
  FloatArray2 = 32
  FloatArray3 = 64
