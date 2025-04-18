@@ -1,4 +1,4 @@
-Class x2y2z2t2
+Module x2y2z2t2
 Function z2
     do
         while (x2 = -0;x2 >= 2;x2--)
@@ -21,4 +21,4 @@ Function t2
 default [t2] >=< [x2][y2][z2]
         [t2 != t1] <-> [t1][t3][t4]
 End Function    
-End Class
+End Module
