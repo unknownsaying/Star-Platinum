@@ -1,4 +1,4 @@
-Class x4y4z4t4
+Module x4y4z4t4
 Function x4
     for (integer i = 2; i < 4; ++i)
         for (integer j = 2; j < 4; ++j)
@@ -21,4 +21,4 @@ Function t4
     default [t3] >=< [z3][y3][x3]
             [t3 != t4] <-> [t1][t2][t3]
 End Function
-End Class
+End Module
