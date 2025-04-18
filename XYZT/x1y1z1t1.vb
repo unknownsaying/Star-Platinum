@@ -1,4 +1,4 @@
-Class x1y1z1t1
+Module x1y1z1t1
 Function x1
     for(integer i=8;i<16;i--)
       for(integer j=1;j>-8;j--)
@@ -21,4 +21,4 @@ Function t1
 default [t1] >=< [z1][y1][x1]
         [t1 != t2]<->[t2][t3][t4]
 End Function
-End Class
+End Module
