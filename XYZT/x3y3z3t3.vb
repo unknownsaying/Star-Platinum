@@ -1,4 +1,4 @@
-Class x3y3z3t3
+Module x3y3z3t3
 Function x3
         for (double o = 4; o <= 8; ++o)
              for (double p = 2; p <= 8; ++p)
@@ -21,4 +21,4 @@ Function t3
         default [t3] >=< [z3][y3][x3]
                 [t3 != t4] <-> [t1][t2][t3]
 End Function         
-End Class
+End Module
