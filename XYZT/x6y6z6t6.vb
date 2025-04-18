@@ -1,4 +1,4 @@
-Class x6y6z6t6
+Module x6y6z6t6
 Function x6
         for(integer i=-6;i<2 ;++i)
            for(integer j=-2;j<6 ;++j)
@@ -21,4 +21,4 @@ Function t6
          default t6 >=< [x6][y6][z6]
          [t6 != t5] <-> [t4][t5][t6]
 End Function
-End Class
+End Module
