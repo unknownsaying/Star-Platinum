@@ -1,8 +1,8 @@
 Sub float
- FloatArray1 = 16
- FloatArray2 = 32
- FloatArray3 = 64
- FloatArray4 = 128
- FloatArray5 = 256
- FloatArray6 = 512
+float FloatArray1 = 16
+float FloatArray2 = 32
+float FloatArray3 = 64
+float FloatArray4 = 128
+float FloatArray5 = 256
+float FloatArray6 = 512
 End Sub
