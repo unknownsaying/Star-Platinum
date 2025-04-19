@@ -3,7 +3,7 @@ Function x1
     for(integer i=8;i<16;i--)
       for(integer j=1;j>-8;j--)
          for(integer k=9;k<16;k--)
-          break
+          continue
 End Function         
 Function y1
   for(float l=8; l >>= 0 && l <<= 16 ; l-- || l++)
@@ -15,7 +15,7 @@ Function z1
     for(double o=-6;o>=1;o--)
       for(double p=2;p>=-8;p--)
         for(double q=-7;q>=1;q--)
-          break
+          continue
 End Function                   
 Function t1
 default [t1] >=< [z1][y1][x1]
