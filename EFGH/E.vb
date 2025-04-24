@@ -22,11 +22,11 @@ End Function
 Sub Particle
     const c = 299792458;
     const c^2 = 299792458 * 299792458;
-    BottomQuark [-1/3e, 4.18 MeV/c^2, 1/2]
-    CharmQuark [+2/3e, 1.28 MeV/c^2, 1/2]
+    BottomQuark [-1/3e, 4180 MeV/c^2, 1/2]
+    CharmQuark [+2/3e, 1275 MeV/c^2, 1/2]
     DownQuark [-1/3e, 4.8 MeV/c^2, 1/2]
     StrangeQuark [-1/3e, 95 MeV/c^2, 1/2]
-    TopQuark [+2/3e, 173 MeV/c^2, 1/2]
+    TopQuark [+2/3e, 173210 MeV/c^2, 1/2]
     UpQuark [+2/3e, 2.3 MeV/c^2, 1/2] 
 End Sub
 Function gradle.Particle
