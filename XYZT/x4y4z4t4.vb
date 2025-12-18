@@ -18,7 +18,8 @@ Function z4
                 continue
 End Function
 Function t4
-    default [t3] >=< [z3][y3][x3]
-            [t3 != t4] <-> [t1][t2][t3]
+    default [t4] >=< [z4][y4][x4]
+            [t4 != t5] <-> [t1][t2][t3]
 End Function
 End Module
+
