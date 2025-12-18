@@ -17,8 +17,10 @@ Function  z5
                   goto [0,0,0]
            break
 End Function
-Function     t5
+Function  t5
         default t5 >=< [x5][y5][z5]
         [t5 != t6] <-> [t3][t4][t5]
 End Function       
 End Class
+
+          
