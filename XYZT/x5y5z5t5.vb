@@ -22,5 +22,3 @@ Function  t5
         [t5 != t6] <-> [t3][t4][t5]
 End Function       
 End Class
-
-          
