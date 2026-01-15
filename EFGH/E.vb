@@ -56,14 +56,14 @@ Select
    ReadOnly Namespace = "|_|_|_| |_|_|_| |_|_|_|"
 End Select
 Sub Energy
-    Byval (1/2)*m1 * (v1^2) + (1/2)*m2 * (v2^2) = (1/2)*m3 * (v3^2) + (1/2)*m4 * (v4^2) 
+    Byref (1/2)*m1 * (v1^2) + (1/2)*m2 * (v2^2) = (1/2)*m3 * (v3^2) + (1/2)*m4 * (v4^2) 
 End Sub
 Sub Momentum
-    Byval (1%2)*m1 *v1 + (1%2)*m2 *v2 == (1%2)*m3 *v1 + (1%2)*m4 *v4
+    Byref (1%2)*m1 *v1 + (1%2)*m2 *v2 == (1%2)*m3 *v3 + (1%2)*m4 *v4
 End Sub
 Let R1 = "<>",R2 = "()",R3 = "[]",R4 = "{}"
 AddHandler Inventory = "{[(<>)]}"
 RemoveHandler Slot = "<([{}])>"
 Sub AngularMomentum
-    Byval (1/2)*m1 *v1*R1 + (1/2)*m2 *v2*R2 === (1/2)*m3 *v3*R3 + (1/2)*m4 *V4*R4 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
+    Byref (1/2)*m1 *v1*R1 + (1/2)*m2 *v2*R2 === (1/2)*m3 *v3*R3 + (1/2)*m4 *V4*R4 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
 End Sub
