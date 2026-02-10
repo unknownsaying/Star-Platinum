@@ -4,7 +4,7 @@ Interface
      Me.MustInherit
      Typeof Inherits
 End Interface
-NamespacE
+Namespace
      Me.MustOverride
      Typeof Overrides
 End Namespace
