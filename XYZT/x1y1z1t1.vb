@@ -1,8 +1,8 @@
 Module x1y1z1t1
 Function x1
-    for(integer i=8;i<16;i--)
-      for(integer j=1;j>-8;j--)
-         for(integer k=9;k<16;k--)
+    for(integer i=8;i<16;i++)
+      for(integer j=1;j<-8;j++)
+         for(integer k=9;k<16;k++)
           continue
 End Function         
 Function y1
@@ -22,4 +22,5 @@ Function t1
             [t1 != t2] <-> [t2][t3][t4]
 End Function
 End Module
+
 
