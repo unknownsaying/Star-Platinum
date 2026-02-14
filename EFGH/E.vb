@@ -22,6 +22,7 @@ End Function
 Sub Particle
     const c = 299792458;
     const c^2 = 299792458 * 299792458;
+    let e = 2.718281828;
     BottomQuark [-1/3e, 4180 MeV/c^2, 1/2]
     CharmQuark [+2/3e, 1275 MeV/c^2, 1/2]
     DownQuark [-1/3e, 4.8 MeV/c^2, 1/2]
@@ -67,3 +68,4 @@ RemoveHandler Slot = "<([{}])>"
 Sub AngularMomentum
     Byref (1/2)*m1 *v1*R1 + (1/2)*m2 *v2*R2 === (1/2)*m3 *v3*R3 + (1/2)*m4 *V4*R4 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
 End Sub
+
