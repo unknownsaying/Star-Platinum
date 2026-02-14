@@ -66,6 +66,7 @@ Let R1 = "<>",R2 = "()",R3 = "[]",R4 = "{}"
 AddHandler Inventory = "{[(<>)]}"
 RemoveHandler Slot = "<([{}])>"
 Sub AngularMomentum
-    Byref (1/2)*m1 *v1*R1 + (1/2)*m2 *v2*R2 === (1/2)*m3 *v3*R3 + (1/2)*m4 *V4*R4 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
+    Byref (1/2)*m1 *v1*R1 + (1/2)*m2 *v2*R2 === (1/2)*m3 *v3*R3 + (1/2)*m4 *v4*R4 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
 End Sub
+
 
