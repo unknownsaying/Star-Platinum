@@ -2,6 +2,7 @@ Imports Double.vb
 Imports Float.vb
 Imports Integer.vb
 Imports InventorySlot
+
 Function scalar
   Alias Double
   Byval `"\/","||","/\"` as vector
@@ -38,6 +39,7 @@ Function gradle.Particle
     Class spin ["1/2 = 1/2 = 1/2 = 1/2 = 1/2 = 1/2"]
     End Class
 End Function
+        
 const m1 = 2, m2 = 4, m3 = 6 , m4 = 8;
 Let v1 = 1, v2 = 3 , v3 = 5 , v4 = 7;
 Select
@@ -68,5 +70,3 @@ RemoveHandler Slot = "<([{}])>"
 Sub AngularMomentum
     Byref (1/2)*m1 *v1*R1 + (1/2)*m2 *v2*R2 === (1/2)*m3 *v3*R3 + (1/2)*m4 *v4*R4 + (1/2)*(m51 + m52) *v4*(R4-R1-R2-R3)
 End Sub
-
-
